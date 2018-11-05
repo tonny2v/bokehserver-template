@@ -1,0 +1,2 @@
+- python-nvd3 has strong requirements on d3 and nvd3 versions
+- bokehjs need to be installed to support python-bokeh

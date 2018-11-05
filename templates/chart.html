@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bar charts with Bokeh!</title>
+    <link href="/static/node_modules/bokehjs/build/css/bokeh-widgets.min.css" rel="stylesheet">
+    <link href="/static/node_modules/bokehjs/build/css/bokeh.min.css" rel="stylesheet">
+    <link href="/static/node_modules/nvd3/build/nv.d3.min.css" rel="stylesheet">
+    <script src="/static/node_modules/bokehjs/build/js/bokeh.min.js"></script>
+    <script src="/static/node_modules/bokehjs/build/js/bokeh-widgets.min.js"></script>
+    <script src="/static/node_modules/d3/d3.min.js"></script>
+    <script src="/static/node_modules/nvd3/build/nv.d3.min.js"></script>
+
+  </head>
+  <body>
+    <h1>Bugs found over the past {{ bars_count }} days</h1>
+    {{ the_div|safe }}
+
+    {{ the_script|safe }}
+  </body>
+</html>
